@@ -6,7 +6,7 @@ Please DOWNLOAD this repository to begin. At the end of your challenge, send you
 
 Included here are a set of tools to get you started. Please use the link to the zeplin project we provided as your design guide.  It includes designs for both mobile and desktop views.  
 
-You may use the web interface or the zeplin desktop app (https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps).  There is no difference between the two.  Zeplin files also includes notes (little yellow dots) on interactivity (i.e. what is a link or button, etc) 
+You may use the web interface or the zeplin desktop app (https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps).  There is no difference between the two.  Zeplin files also includes notes (little yellow dots) on interactivity (i.e. what is a link or button, etc).  If you would like a quick primer on Zeplin and its use, the 3 minute explanation here should help: https://youtu.be/x1RPNx8Jsp4
 
 ## A Few Guidelines
 
