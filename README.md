@@ -4,7 +4,9 @@
 
 Please DOWNLOAD this repository to begin. At the end of your challenge, send your files to alan@reachcreative.com and nana@reachcreative.com, either by zip, github, dropbox, or whatever is easiest for you.
 
-Included here are a set of tools to get you started. Please use the link to the zeplin project we provided as your design guide.  It includes designs for both mobile and desktop views.  You may use the web interface or the zeplin desktop app (https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps).  There is no difference between the two.  Zeplin also includes notes on interactivity (i.e. what is a link or button, etc)
+Included here are a set of tools to get you started. Please use the link to the zeplin project we provided as your design guide.  It includes designs for both mobile and desktop views.  
+
+You may use the web interface or the zeplin desktop app (https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps).  There is no difference between the two.  Zeplin files also includes notes (little yellow dots) on interactivity (i.e. what is a link or button, etc) 
 
 ## A Few Guidelines
 
