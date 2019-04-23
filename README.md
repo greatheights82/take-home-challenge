@@ -28,7 +28,9 @@ Tools included in this project:
 
 1. Install Gulp globally by running `npm install gulp-cli -g`
 
-2. Run `npm install` to install the project dependancies.  This project uses Gulp as its task runner.  Reach doesn't use Gulp much these days for production projects, but it a great simple tool when creating simple html and css.
+2. Install SASS globally by running `npm install -g sass`
+
+3. Install the project dependancies by running `npm install`.  This project uses Gulp as its task runner.  Reach doesn't use Gulp much these days for production projects, but it a great simple tool when creating simple html and css.
 
 ### Developing
 
