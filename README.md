@@ -36,7 +36,7 @@ Tools included in this project:
 
 ### Developing
 
-1. Run `gulp watch` to begin the build process.  A browser should automatically open running the files locally at http://localhost:3000
+1. Run `gulp watch` to begin the build process.  A browser should automatically open running the files locally at http://localhost:3000.  Keep this process running and the site will automatically hot-reload as you work.
 
 2. Write your new HTML in `src/templates/index.html`.
 
