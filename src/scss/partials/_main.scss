@@ -11,28 +11,81 @@ section {
 }
 
 .main h1 {
-  font-size: 4em;
-  font-family: 'ArchiveGaramondPro-BoldItalic';
+  font-family: ArchiveGaramondPro;
+  font-size: 59.5px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.97;
 }
 
+.main h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+a {
+  font-family: 'ArchiveGaramondPro-Bold';
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
 /* gallery section */
 #gallery {
   display: flex;
-  justify-content: center;
-  align-items: s;
+}
+
+#gallery h1 {
+  margin: 5px;
+}
+
+#gallery p {
+  text-shadow: 0px 2px 10px rgba(1, 1, 1, 0.2);
+  font-family: Montserrat;
+  font-size: 19.5px;
+  margin: 5px;
+  line-height: 1.95;
+  text-align: center;
+  color: #ffffff;
 }
 
 #gallery-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: absolute;
+  width: 100%;
   z-index: 2;
   color: #ffffff;
 }
 
-#gallery img {
+.gallery-area {
+  flex: 0 0 33%;
+}
+
+#gallery .left-arrow {
+  width: 23px;
+  height: 92px;
+  object-fit: contain;
+  float: left;
+}
+#gallery .right-arrow {
+  width: 23px;
+  height: 92px;
+  object-fit: contain;
+  float: right;
+}
+
+#gallery > img {
   display: block;
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+#gallery .rule {
+  width: 161px;
+  height: 3px;
 }
 
 /* enter section */
@@ -49,5 +102,21 @@ section {
 #enter .enter-step {
   flex: 0 0 33%;
   text-align: center;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 40px 10px 40px;
+}
+
+#enter .rule {
+  width: 161px;
+  height: 3px;
+  filter: invert(70%);
+}
+
+#enter .rule-big {
+  width: 217px;
+  height: 5px;
+  vertical-align: top;
+}
+
+#enter p {
+  font-size: 14px;
 }
