@@ -125,8 +125,14 @@ a {
 
 /* prize section */
 #prize > img {
-  display: block;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  // overflow: hidden;
+  z-index: 0;
 }
+
+// #prize-text {
+//   // position: absolute;
+//   z-index: 2;
+//   color: #ffffff;
+// }
