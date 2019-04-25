@@ -1,3 +1,53 @@
+section {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
 .main {
   text-align: center;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  color: #6b6e68;
+}
+
+.main h1 {
+  font-size: 4em;
+  font-family: 'ArchiveGaramondPro-BoldItalic';
+}
+
+/* gallery section */
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: s;
+}
+
+#gallery-text {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+
+#gallery img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* enter section */
+#enter {
+  background-image: url('../img/enter_background/enter-bg@3x.jpg');
+  background-size: cover;
+}
+
+#enter > div {
+  display: flex;
+  flex-flow: wrap;
+}
+
+#enter .enter-step {
+  flex: 0 0 33%;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
 }
