@@ -35,6 +35,13 @@ a {
   display: flex;
 }
 
+#gallery > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 #gallery h1 {
   margin: 5px;
 }
@@ -76,13 +83,6 @@ a {
   float: right;
 }
 
-#gallery > img {
-  display: block;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
 #gallery .rule {
   width: 161px;
   height: 3px;
@@ -97,12 +97,14 @@ a {
 #enter > div {
   display: flex;
   flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #enter .enter-step {
   flex: 0 0 33%;
   text-align: center;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 20px 10px 20px;
 }
 
 #enter .rule {
@@ -119,4 +121,12 @@ a {
 
 #enter p {
   font-size: 14px;
+}
+
+/* prize section */
+#prize > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
